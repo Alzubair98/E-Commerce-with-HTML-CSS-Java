@@ -25,9 +25,8 @@ h4 {
 }
 
 h6 {
-  font-size: 700px;
-  color: #465b52;
-  margin: 15px 0 20px 0;
+  font-weight: 700;
+  font-size: 12px;
 }
 
 p {
