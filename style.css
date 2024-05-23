@@ -583,4 +583,10 @@ footer .copyright {
   #lg-bag {
     display: none;
   }
+
+  #hero {
+    height: 70vh;
+    background-position: top 30% right 30%;
+    padding: 0 80px;
+  }
 }
