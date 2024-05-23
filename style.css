@@ -609,4 +609,8 @@ footer .copyright {
   #product1 .pro {
     margin: 15px;
   }
+
+  #banner {
+    height: 20vh;
+  }
 }
