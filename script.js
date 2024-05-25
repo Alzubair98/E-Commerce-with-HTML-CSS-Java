@@ -13,3 +13,13 @@ if (close) {
     nav.classList.remove("active");
   });
 }
+
+// sproduct
+var MainImg = document.getElementById("MainImg");
+var smallimg = document.getElementsByClassName("small-img");
+
+for (let i = 0; i < smallimg.length; i++) {
+  smallimg[i].onclick = function () {
+    MainImg.src = smallimg[i].src;
+  };
+}
