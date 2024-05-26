@@ -705,6 +705,11 @@ footer .copyright {
 }
 
 /* About Page */
+#page-header.about-header {
+  background-image: url("img/about/banner.png");
+}
+
+/* Contact page */
 
 @media (max-width: 799px) {
   .section-p1 {
