@@ -709,6 +709,20 @@ footer .copyright {
   background-image: url("img/about/banner.png");
 }
 
+#about-head {
+  display: flex;
+  align-items: center;
+}
+
+#about-head img {
+  width: 50%;
+  height: auto;
+}
+
+#about-head div {
+  padding-left: 40px;
+}
+
 /* Contact page */
 
 @media (max-width: 799px) {
