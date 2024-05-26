@@ -636,7 +636,7 @@ footer .copyright {
 }
 
 /* Blog Page */
-#page-header .blog-header {
+#page-header.blog-header {
   background-image: url("img/banner/b19.jpg");
 }
 
@@ -877,6 +877,25 @@ footer .copyright {
     margin-right: 0px;
   }
   #prodetails .single-pro-details {
+    width: 100%;
+  }
+
+  /* blog */
+  #blog {
+    padding: 100px 20px 0 20px;
+  }
+  #blog .blog-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #blog .blog-img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  #blog .blog-details {
     width: 100%;
   }
 }
